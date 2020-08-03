@@ -1,0 +1,136 @@
+Fuente1 = 'Mulish', sans-serif
+Fuente2 = 'Roboto', sans-serif
+Color-Fuentes = #464A5A
+Color-Fondo1 = #DED8D5
+Color-Fondo2 = #F7AC1B
+Color-Oscuro = #21242C
+
+*
+    box-sizing: border-box
+    background: Color-Fondo1
+    padding: 0
+body
+    margin: 0
+    font-family: Fuente1
+    color: Color-Fuentes
+main
+    display: grid
+    grid-template-columns: 1fr 1fr
+    height: 90vh
+    .logo-club1
+        margin-left: auto
+        width: 150px
+    .left-side, .right-side
+        display: grid
+        align-content: center
+        justify-content: center
+    .right-side
+        text-align: end
+        padding-right: 25%
+    .left-side
+        padding: 0 10%
+    h1, h2
+        font-size: 48px
+        line-height: 60px
+        font-weight: normal
+    h3
+        margin: 0
+        text-align: center
+        font-size: 18px
+        line-height: 23px
+        font-family: Fuente1
+        background: none
+        color: Color-Fuentes
+        font-weight: 300
+    .btn-login
+        padding: 10px
+        width: 150px
+        height: 40px
+        border-radius: 50px
+        margin-left: auto
+        background: rgba(Color-Fondo2, 0.6)
+        color: Color-Fuentes
+        text-decoration: none
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    .register
+        text-decoration: none
+        color: Color-Fuentes
+        font-weight: 700
+footer 
+    display: flex
+    font-family: Fuente2
+    color: Color-Fuentes
+    justify-content: center
+    align-content: center
+.ed-modal
+    &-container
+        background: rgba(#000, .8)
+        position: fixed
+        top: 0
+        width: 100%
+        height: 100vh
+        display: flex
+    &-content
+        display: flex
+        margin: 0 35%
+        align-items: center
+        border-radius: 50px
+.ventana-modal
+    border-radius: 25px
+    position: absolute
+    z-index -1
+    display: flex
+    flex-flow: column
+    height 450px
+    width: 280px
+    background: Color-Fuentes
+.titulo-login
+    margin-top: 25%
+    margin-bottom: 20%
+    font-size: 25px
+    line-height: 30px
+    font-family: Fuente1
+    font-weight: 300
+    color: white
+    background: Color-Fuentes
+    text-align: left
+    padding: 0 10% 
+.email, .password
+    margin: 20px 10%
+    height: 30px
+    border-style: none 
+    border-bottom: 2px solid Color-Fondo2
+    background: Color-Fuentes   
+    font-size: 15px
+    line-height: 20px
+    padding: 5%
+.login
+    padding: 10px
+    width: 150px
+    height: 40px
+    border-radius: 50px
+    margin: 10px auto
+    background: Color-Oscuro
+    color: white
+    text-decoration: none
+    text-align: center
+    box-shadow: 0px 4px 4px rgba(Color-Oscuro, 0.50)
+.text-register
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    background: Color-Fuentes
+    color: white
+.login-register
+    text-decoration: none 
+    color: white
+    background: Color-Fuentes
+    font-weight: 800
+
+
+
+
+    
+    
+    
+
